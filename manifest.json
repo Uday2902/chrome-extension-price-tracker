@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Price History Graph",
+  "version": "1.0",
+  "description": "Displays a graph of price history for a product.",
+  "browser_action": {
+    "default_title": "Price History Graph",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://localhost:5000/*"
+  ]
+}
